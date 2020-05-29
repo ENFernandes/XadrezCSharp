@@ -8,8 +8,9 @@ namespace Projetoxadrez
     {
         static void Main ( string [ ] args )
         {
-            Mesa mesa = new Mesa (8,8);
-            Console .WriteLine (mesa.ToString());
+            Mesa tab = new Mesa(8,8);
+
+            Tela .ImprimirTabuleiro ( tab );
         }
     }
 }
